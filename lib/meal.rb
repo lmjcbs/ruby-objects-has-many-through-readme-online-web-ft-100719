@@ -5,7 +5,7 @@ class Meal
   @@all = Array.new
 
   def initialize(waiter, customer, total, tip)
-    @cost = cost
+    @total = cost
     @tip = tip
     @@all << self
   end
