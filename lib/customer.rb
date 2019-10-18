@@ -1,6 +1,6 @@
 class Customer
 
-  def initialize
+  def initialize(name)
     @name = name
     @age = age
     @@all << self
