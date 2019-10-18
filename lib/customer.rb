@@ -1,7 +1,7 @@
 class Customer
 
   def initialize
-
-  end 
+    @name = name
+  end
 
 end
