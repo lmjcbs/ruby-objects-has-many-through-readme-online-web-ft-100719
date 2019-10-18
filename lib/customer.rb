@@ -2,7 +2,7 @@ class Customer
 
   attr_accessor :name, :age
 
-  @@all = []
+  @@all = Array.new
 
   def initialize(name, age)
     @name = name
