@@ -1,6 +1,6 @@
 class Meal
 
-  attr_accessor :cost, :tip
+  attr_accessor :total, :tip
 
   @@all = Array.new
 
