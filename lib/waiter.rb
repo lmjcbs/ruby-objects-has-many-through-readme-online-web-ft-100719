@@ -1,6 +1,6 @@
 class Waiter
 
-  attr_accessor :name, :experience
+  attr_accessor :name, :yrs_experience
 
   @@all = Array.new
 
