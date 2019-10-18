@@ -19,7 +19,7 @@ class Customer
   end
 
   def meals
-
+    Meal.all
   end
 
 end
